@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: No need to do anything.
+- text: Just import the library in your source files.
+- text: Import the library in your source files and include the kotlinx-datetime dependency
+    into your Gradle or Maven project.
+- text: Include the kotlinx-datetime dependency into your Gradle or Maven project.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19457#comment
+status: Solved
+record: -1
+local_check: false
